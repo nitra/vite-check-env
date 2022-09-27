@@ -1,0 +1,36 @@
+{
+  "name": "@nitra/vite-check-env",
+  "description": "Vite.js plugin that makes build fail if a required environment variable(s) is missing",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "src/index.js",
+  "files": [
+    "src"
+  ],
+  "peerDependencies": {
+    "vite": "^3.0.0"
+  },
+  "dependencies": {
+    "picocolors": "^1.0.0"
+  },
+  "devDependencies": {
+    "vite": "^3.0.9"
+  },
+  "keywords": [
+    "vite",
+    "vite-plugin",
+    "check-env",
+    "env"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nitra/vite-check-env.git"
+  },
+  "bugs": "https://github.com/nitra/vite-check-env/issues",
+  "homepage": "https://github.com/nitra/vite-check-env",
+  "author": {
+    "name": "Pavel Sušický",
+    "url": "https://frontendista.cz"
+  },
+  "license": "MIT"
+}

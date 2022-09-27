@@ -1,44 +1,30 @@
 {
-  "name": "vite-require-env-var",
+  "name": "nitra-vite-check-env",
   "description": "Vite.js plugin that makes build fail if a required environment variable(s) is missing",
-  "version": "1.0.2",
+  "version": "1.0.0",
   "type": "module",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
-  "files": [
-    "dist",
-    "package.json",
-    "README.md"
+  "workspaces": [
+    "demo",
+    "npm"
   ],
-  "scripts": {
-    "watch": "tsc -p . -w",
-    "build": "tsc -p .",
-    "prepublishOnly": "pnpm build"
-  },
-  "peerDependencies": {
-    "vite": "^3.0.0"
-  },
-  "dependencies": {
-    "picocolors": "^1.0.0"
-  },
-  "devDependencies": {
-    "@types/node": "^18.7.13",
-    "typescript": "^4.7.4",
-    "vite": "^3.0.9"
-  },
-  "keywords": [
-    "vite",
-    "vite-plugin"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Thesoreon/vite-require-environment-variable.git"
-  },
-  "bugs": "https://github.com/Thesoreon/vite-require-environment-variable/issues",
-  "homepage": "https://github.com/Thesoreon/vite-require-environment-variable",
+  "bugs": "https://github.com/nitra/vite-check-env/issues",
+  "homepage": "https://github.com/nitra/vite-check-env",
   "author": {
     "name": "Pavel Sušický",
     "url": "https://frontendista.cz"
   },
-  "license": "MIT"
+  "prettier": "@nitra/prettier-config",
+  "eslintConfig": {
+    "extends": [
+      "@nitra"
+    ],
+    "root": true
+  },
+  "devDependencies": {
+    "@nitra/cspell-dict": "^1.0.55",
+    "@nitra/eslint-config": "^1.0.24",
+    "@nitra/prettier-config": "^1.0.1"
+  },
+  "license": "MIT",
+  "packageManager": "yarn@3.2.3"
 }
