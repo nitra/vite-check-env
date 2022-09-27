@@ -8,7 +8,11 @@ It supports all .env.\* files (even combined)
 - .env.local
 - .env.[mode]
 
-![Example CLI output by @nitra/vite-check-env plugin](./docs/images/example.png)
+Example CLI output by @nitra/vite-check-env plugin:
+
+```sh
+> Missing environment variable: VITE_SENTRY1
+```
 
 ## Install dependency
 

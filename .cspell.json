@@ -1,7 +1,20 @@
 {
   "version": "0.2",
   "language": "en,uk,ru-ru,nitra",
-  "ignorePaths": ["**/node_modules/**", "**/vscode-extension/**", "**/.git/**", ".vscode", "report", "yarn.lock"],
-  "import": ["@nitra/cspell-dict/cspell-ext.json"],
-  "words": ["picocolors", "Sušický"]
+  "ignorePaths": [
+    "**/node_modules/**",
+    "**/vscode-extension/**",
+    "**/.git/**",
+    ".vscode",
+    "report",
+    "yarn.lock"
+  ],
+  "import": [
+    "@nitra/cspell-dict/cspell-ext.json"
+  ],
+  "words": [
+    "Pavel",
+    "picocolors",
+    "Sušický"
+  ]
 }
