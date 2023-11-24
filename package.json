@@ -26,5 +26,5 @@
     "@nitra/prettier-config": "^1.0.1"
   },
   "license": "MIT",
-  "packageManager": "yarn@3.2.3"
+  "packageManager": "yarn@4.0.2"
 }
